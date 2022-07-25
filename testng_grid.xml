@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="5" parallel="tests" name="Suite">
+
+	<test name="WIN_Edge_Test">
+		<parameter name="OS" value="win"></parameter>
+		<classes>
+			<class name="gridExampl.HRMLoginTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="MAC_chrome_Test">
+		<parameter name="OS" value="mac"></parameter>
+		<classes>
+			<class name="gridExampl.HRMLoginTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

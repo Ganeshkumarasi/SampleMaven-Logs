@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-11T00:39:11 PDT" name="Suite" finished-at="2022-07-11T00:39:27 PDT" duration-ms="15247">
+    <groups>
+    </groups>
+    <test started-at="2022-07-11T00:39:11 PDT" name="ChromeBrowserTest" finished-at="2022-07-11T00:39:27 PDT" duration-ms="15247">
+      <class name="com.ibm.SampleMaven.AmazonTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.ibm.SampleMaven.AmazonTest@394df057]" started-at="2022-07-11T00:39:11 PDT" name="launchApp" finished-at="2022-07-11T00:39:15 PDT" duration-ms="3910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="addComment()[pri:0, instance:com.ibm.SampleMaven.AmazonTest@394df057]" started-at="2022-07-11T00:39:15 PDT" name="addComment" finished-at="2022-07-11T00:39:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComment -->
+        <test-method signature="loginTest()[pri:0, instance:com.ibm.SampleMaven.AmazonTest@394df057]" started-at="2022-07-11T00:39:15 PDT" name="loginTest" finished-at="2022-07-11T00:39:17 PDT" duration-ms="2133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="addComment2()[pri:0, instance:com.ibm.SampleMaven.AmazonTest@394df057]" started-at="2022-07-11T00:39:17 PDT" name="addComment2" finished-at="2022-07-11T00:39:17 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComment2 -->
+        <test-method is-config="true" signature="addComment()[pri:0, instance:com.ibm.SampleMaven.AmazonTest@394df057]" started-at="2022-07-11T00:39:17 PDT" name="addComment" finished-at="2022-07-11T00:39:17 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComment -->
+        <test-method signature="logout()[pri:0, instance:com.ibm.SampleMaven.AmazonTest@394df057]" started-at="2022-07-11T00:39:17 PDT" name="logout" finished-at="2022-07-11T00:39:19 PDT" duration-ms="1817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="addComment2()[pri:0, instance:com.ibm.SampleMaven.AmazonTest@394df057]" started-at="2022-07-11T00:39:19 PDT" name="addComment2" finished-at="2022-07-11T00:39:19 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComment2 -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.ibm.SampleMaven.AmazonTest@394df057]" started-at="2022-07-11T00:39:19 PDT" name="closeApp" finished-at="2022-07-11T00:39:27 PDT" duration-ms="7349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.ibm.SampleMaven.AmazonTest -->
+    </test> <!-- ChromeBrowserTest -->
+  </suite> <!-- Suite -->
+</testng-results>
